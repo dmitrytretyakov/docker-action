@@ -16,7 +16,7 @@ jobs:
 
       - name: Run my own container action
         id: hello-action
-        uses: ./docker-action
+        uses: ./
         with:
           who-to-greet: '@dmitrytretyakov'
 
